@@ -15,4 +15,5 @@ server.on('request', (req, res) => {
 
 server.listen(port, () => {
   console.log(`server sucessfully started on port: ${port}`)
+  console.log(`click to open http://localhost:${port}`)
 })
